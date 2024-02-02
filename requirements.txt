@@ -1,0 +1,17 @@
+#--find-links https://download.pytorch.org/whl/torch_stable.html
+#https://download.pytorch.org/whl/cpu
+#torch==1.13.1
+fastapi==0.95.0
+gibberish_detector==0.1.1
+#gingerit==0.9.0
+scikit_learn==1.2.2
+sentence_transformers==2.2.2
+uvicorn==0.21.1
+gramformer @ git+https://github.com/PrithivirajDamodaran/Gramformer.git@23425cd2e98a919384cab6156af8adf1c9d0639a
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
+#en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.3.1/en_core_web_lg-2.3.1.tar.gz
+nltk==3.8.1
+pyenchant==3.2.2
+fuzzywuzzy==0.18.0
+python-levenshtein==0.20.9
+spacy==2.3.9
